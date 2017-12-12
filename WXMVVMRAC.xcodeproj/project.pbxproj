@@ -15,6 +15,14 @@
 		183D74371FDF6BBE0041BB71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183D74351FDF6BBE0041BB71 /* LaunchScreen.storyboard */; };
 		183D74421FDF6BBE0041BB71 /* WXMVVMRACTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D74411FDF6BBE0041BB71 /* WXMVVMRACTests.m */; };
 		183D744D1FDF6BBE0041BB71 /* WXMVVMRACUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D744C1FDF6BBE0041BB71 /* WXMVVMRACUITests.m */; };
+		183D746D1FDF86A00041BB71 /* WXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D746C1FDF86A00041BB71 /* WXBaseViewController.m */; };
+		183D74721FDF87BB0041BB71 /* WXBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D74711FDF87BB0041BB71 /* WXBaseViewModel.m */; };
+		183D74761FDF8A160041BB71 /* WXNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D74751FDF8A160041BB71 /* WXNetworkRequest.m */; };
+		183D747A1FDFB6F30041BB71 /* WXBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D74791FDFB6F30041BB71 /* WXBaseView.m */; };
+		183D747E1FDFBEB20041BB71 /* WXBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D747D1FDFBEB20041BB71 /* WXBaseTableViewCell.m */; };
+		183D74821FDFD1110041BB71 /* WXBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D74811FDFD1110041BB71 /* WXBaseCollectionViewCell.m */; };
+		183D74861FDFD3960041BB71 /* WXBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D74851FDFD3960041BB71 /* WXBaseNavigationController.m */; };
+		70FCA0983E5766BA61243D52 /* Pods_WXMVVMRAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE158A4ACE96E9E6F71EA59 /* Pods_WXMVVMRAC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +45,8 @@
 /* Begin PBXFileReference section */
 		183D74241FDF6BBE0041BB71 /* WXMVVMRAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXMVVMRAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		183D74281FDF6BBE0041BB71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		183D742A1FDF6BBE0041BB71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		183D742B1FDF6BBE0041BB71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		183D742A1FDF6BBE0041BB71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		183D742B1FDF6BBE0041BB71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		183D742D1FDF6BBE0041BB71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		183D742E1FDF6BBE0041BB71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		183D74311FDF6BBE0041BB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,29 @@
 		183D74481FDF6BBE0041BB71 /* WXMVVMRACUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXMVVMRACUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183D744C1FDF6BBE0041BB71 /* WXMVVMRACUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXMVVMRACUITests.m; sourceTree = "<group>"; };
 		183D744E1FDF6BBE0041BB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183D74671FDF80DD0041BB71 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		183D746B1FDF86A00041BB71 /* WXBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXBaseViewController.h; sourceTree = "<group>"; };
+		183D746C1FDF86A00041BB71 /* WXBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXBaseViewController.m; sourceTree = "<group>"; };
+		183D74701FDF87BB0041BB71 /* WXBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXBaseViewModel.h; sourceTree = "<group>"; };
+		183D74711FDF87BB0041BB71 /* WXBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXBaseViewModel.m; sourceTree = "<group>"; };
+		183D74731FDF87E10041BB71 /* WXBaseViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXBaseViewModelProtocol.h; sourceTree = "<group>"; };
+		183D74741FDF8A160041BB71 /* WXNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXNetworkRequest.h; sourceTree = "<group>"; };
+		183D74751FDF8A160041BB71 /* WXNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXNetworkRequest.m; sourceTree = "<group>"; };
+		183D74771FDFAC250041BB71 /* WXBaseViewControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXBaseViewControllerProtocol.h; sourceTree = "<group>"; };
+		183D74781FDFB6F30041BB71 /* WXBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXBaseView.h; sourceTree = "<group>"; };
+		183D74791FDFB6F30041BB71 /* WXBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXBaseView.m; sourceTree = "<group>"; };
+		183D747B1FDFB70A0041BB71 /* WXBaseViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXBaseViewProtocol.h; sourceTree = "<group>"; };
+		183D747C1FDFBEB20041BB71 /* WXBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXBaseTableViewCell.h; sourceTree = "<group>"; };
+		183D747D1FDFBEB20041BB71 /* WXBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXBaseTableViewCell.m; sourceTree = "<group>"; };
+		183D747F1FDFBF120041BB71 /* WXBaseTableViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXBaseTableViewCellProtocol.h; sourceTree = "<group>"; };
+		183D74801FDFD1110041BB71 /* WXBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		183D74811FDFD1110041BB71 /* WXBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		183D74831FDFD25D0041BB71 /* WXBaseCollectionViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXBaseCollectionViewCellProtocol.h; sourceTree = "<group>"; };
+		183D74841FDFD3960041BB71 /* WXBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXBaseNavigationController.h; sourceTree = "<group>"; };
+		183D74851FDFD3960041BB71 /* WXBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXBaseNavigationController.m; sourceTree = "<group>"; };
+		1CE158A4ACE96E9E6F71EA59 /* Pods_WXMVVMRAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WXMVVMRAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C5F649D7003FF9117A5238C /* Pods-WXMVVMRAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXMVVMRAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-WXMVVMRAC/Pods-WXMVVMRAC.release.xcconfig"; sourceTree = "<group>"; };
+		E50AEC29AC889DF6090AFEDC /* Pods-WXMVVMRAC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXMVVMRAC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXMVVMRAC/Pods-WXMVVMRAC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70FCA0983E5766BA61243D52 /* Pods_WXMVVMRAC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +117,8 @@
 				183D74401FDF6BBE0041BB71 /* WXMVVMRACTests */,
 				183D744B1FDF6BBE0041BB71 /* WXMVVMRACUITests */,
 				183D74251FDF6BBE0041BB71 /* Products */,
+				50F40D37F7548B18D797650C /* Pods */,
+				2BDBD98F883CFE1017F4372C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +135,16 @@
 		183D74261FDF6BBE0041BB71 /* WXMVVMRAC */ = {
 			isa = PBXGroup;
 			children = (
-				183D742A1FDF6BBE0041BB71 /* AppDelegate.h */,
-				183D742B1FDF6BBE0041BB71 /* AppDelegate.m */,
+				183D745A1FDF801F0041BB71 /* APPDelegate */,
+				183D745B1FDF801F0041BB71 /* Class */,
+				183D74661FDF801F0041BB71 /* Resource */,
+				183D74271FDF6BBE0041BB71 /* Supporting Files */,
+				183D74301FDF6BBE0041BB71 /* Main.storyboard */,
 				183D742D1FDF6BBE0041BB71 /* ViewController.h */,
 				183D742E1FDF6BBE0041BB71 /* ViewController.m */,
-				183D74301FDF6BBE0041BB71 /* Main.storyboard */,
 				183D74331FDF6BBE0041BB71 /* Assets.xcassets */,
 				183D74351FDF6BBE0041BB71 /* LaunchScreen.storyboard */,
 				183D74381FDF6BBE0041BB71 /* Info.plist */,
-				183D74271FDF6BBE0041BB71 /* Supporting Files */,
 			);
 			path = WXMVVMRAC;
 			sourceTree = "<group>";
@@ -118,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				183D74281FDF6BBE0041BB71 /* main.m */,
+				183D74671FDF80DD0041BB71 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +176,169 @@
 			path = WXMVVMRACUITests;
 			sourceTree = "<group>";
 		};
+		183D745A1FDF801F0041BB71 /* APPDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				183D742A1FDF6BBE0041BB71 /* AppDelegate.h */,
+				183D742B1FDF6BBE0041BB71 /* AppDelegate.m */,
+			);
+			path = APPDelegate;
+			sourceTree = "<group>";
+		};
+		183D745B1FDF801F0041BB71 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				183D745C1FDF801F0041BB71 /* General */,
+				183D74621FDF801F0041BB71 /* Helpers */,
+				183D74631FDF801F0041BB71 /* Macro */,
+				183D74641FDF801F0041BB71 /* Sections */,
+				183D74651FDF801F0041BB71 /* Vendors */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		183D745C1FDF801F0041BB71 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				183D745D1FDF801F0041BB71 /* Base */,
+				183D745E1FDF801F0041BB71 /* Category */,
+				183D745F1FDF801F0041BB71 /* Core */,
+				183D74601FDF801F0041BB71 /* Models */,
+				183D74611FDF801F0041BB71 /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		183D745D1FDF801F0041BB71 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				183D746B1FDF86A00041BB71 /* WXBaseViewController.h */,
+				183D746C1FDF86A00041BB71 /* WXBaseViewController.m */,
+				183D74771FDFAC250041BB71 /* WXBaseViewControllerProtocol.h */,
+				183D74781FDFB6F30041BB71 /* WXBaseView.h */,
+				183D74791FDFB6F30041BB71 /* WXBaseView.m */,
+				183D747B1FDFB70A0041BB71 /* WXBaseViewProtocol.h */,
+				183D74701FDF87BB0041BB71 /* WXBaseViewModel.h */,
+				183D74711FDF87BB0041BB71 /* WXBaseViewModel.m */,
+				183D74731FDF87E10041BB71 /* WXBaseViewModelProtocol.h */,
+				183D747C1FDFBEB20041BB71 /* WXBaseTableViewCell.h */,
+				183D747D1FDFBEB20041BB71 /* WXBaseTableViewCell.m */,
+				183D747F1FDFBF120041BB71 /* WXBaseTableViewCellProtocol.h */,
+				183D74801FDFD1110041BB71 /* WXBaseCollectionViewCell.h */,
+				183D74811FDFD1110041BB71 /* WXBaseCollectionViewCell.m */,
+				183D74831FDFD25D0041BB71 /* WXBaseCollectionViewCellProtocol.h */,
+				183D74841FDFD3960041BB71 /* WXBaseNavigationController.h */,
+				183D74851FDFD3960041BB71 /* WXBaseNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		183D745E1FDF801F0041BB71 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		183D745F1FDF801F0041BB71 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		183D74601FDF801F0041BB71 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		183D74611FDF801F0041BB71 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		183D74621FDF801F0041BB71 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				183D74681FDF85420041BB71 /* Networking */,
+				183D74691FDF85420041BB71 /* WXExtension */,
+				183D746A1FDF85420041BB71 /* WXRefresh */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		183D74631FDF801F0041BB71 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		183D74641FDF801F0041BB71 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		183D74651FDF801F0041BB71 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		183D74661FDF801F0041BB71 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		183D74681FDF85420041BB71 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				183D74741FDF8A160041BB71 /* WXNetworkRequest.h */,
+				183D74751FDF8A160041BB71 /* WXNetworkRequest.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		183D74691FDF85420041BB71 /* WXExtension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WXExtension;
+			sourceTree = "<group>";
+		};
+		183D746A1FDF85420041BB71 /* WXRefresh */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WXRefresh;
+			sourceTree = "<group>";
+		};
+		2BDBD98F883CFE1017F4372C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CE158A4ACE96E9E6F71EA59 /* Pods_WXMVVMRAC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50F40D37F7548B18D797650C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E50AEC29AC889DF6090AFEDC /* Pods-WXMVVMRAC.debug.xcconfig */,
+				6C5F649D7003FF9117A5238C /* Pods-WXMVVMRAC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +346,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 183D74511FDF6BBE0041BB71 /* Build configuration list for PBXNativeTarget "WXMVVMRAC" */;
 			buildPhases = (
+				61E77C0D8C164B3C2F9C431A /* [CP] Check Pods Manifest.lock */,
 				183D74201FDF6BBE0041BB71 /* Sources */,
 				183D74211FDF6BBE0041BB71 /* Frameworks */,
 				183D74221FDF6BBE0041BB71 /* Resources */,
+				BA9587E9A8C09DE9DD797435 /* [CP] Embed Pods Frameworks */,
+				43135F30331565337E6ADDCF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +473,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43135F30331565337E6ADDCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXMVVMRAC/Pods-WXMVVMRAC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61E77C0D8C164B3C2F9C431A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WXMVVMRAC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9587E9A8C09DE9DD797435 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WXMVVMRAC/Pods-WXMVVMRAC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXMVVMRAC/Pods-WXMVVMRAC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		183D74201FDF6BBE0041BB71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				183D742F1FDF6BBE0041BB71 /* ViewController.m in Sources */,
+				183D74861FDFD3960041BB71 /* WXBaseNavigationController.m in Sources */,
+				183D747A1FDFB6F30041BB71 /* WXBaseView.m in Sources */,
 				183D742C1FDF6BBE0041BB71 /* AppDelegate.m in Sources */,
+				183D746D1FDF86A00041BB71 /* WXBaseViewController.m in Sources */,
+				183D74821FDFD1110041BB71 /* WXBaseCollectionViewCell.m in Sources */,
+				183D74721FDF87BB0041BB71 /* WXBaseViewModel.m in Sources */,
+				183D747E1FDFBEB20041BB71 /* WXBaseTableViewCell.m in Sources */,
 				183D74291FDF6BBE0041BB71 /* main.m in Sources */,
+				183D74761FDF8A160041BB71 /* WXNetworkRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,9 +702,11 @@
 		};
 		183D74521FDF6BBE0041BB71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E50AEC29AC889DF6090AFEDC /* Pods-WXMVVMRAC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TG4G46DRAS;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WXMVVMRAC/PrefixHeader.pch";
 				INFOPLIST_FILE = WXMVVMRAC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jukwl.WXMVVMRAC;
@@ -437,9 +716,11 @@
 		};
 		183D74531FDF6BBE0041BB71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5F649D7003FF9117A5238C /* Pods-WXMVVMRAC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TG4G46DRAS;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WXMVVMRAC/PrefixHeader.pch";
 				INFOPLIST_FILE = WXMVVMRAC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jukwl.WXMVVMRAC;
@@ -516,6 +797,7 @@
 				183D74531FDF6BBE0041BB71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		183D74541FDF6BBE0041BB71 /* Build configuration list for PBXNativeTarget "WXMVVMRACTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +806,7 @@
 				183D74561FDF6BBE0041BB71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		183D74571FDF6BBE0041BB71 /* Build configuration list for PBXNativeTarget "WXMVVMRACUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +815,7 @@
 				183D74591FDF6BBE0041BB71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
