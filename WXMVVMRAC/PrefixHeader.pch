@@ -27,5 +27,15 @@
 
 #import "WXNetworkRequest.h"
 
+#import "WXAPIMacro.h"
+
+#import <MJRefresh/MJRefresh.h>
+
+#import <MJExtension/MJExtension.h>
+
+#import "WXProgressHUD.h"
+
+//#import <SDWebImage/sw>
+
 #endif
 #endif /* PrefixHeader_pch */

@@ -18,6 +18,8 @@
     self = [super init];
     if (self) {
         self.requestManager = [AFHTTPSessionManager manager];
+        self.requestManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript", @"text/html", @"text/plain", nil, nil];
+
     }
     return self;
 }
@@ -30,13 +32,14 @@
     
     
     self.operationQueue = self.requestManager.operationQueue;//获取当前请求的队列
-    self.requestManager.responseSerializer = [AFHTTPResponseSerializer serializer];
     
     [self.requestManager GET:URLStr parameters:parameters progress:^(NSProgress * _Nonnull downloadProgress) {
         NSLog(@"%@",downloadProgress);
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        
         success(self,responseObject);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        
         failure(self,error);
     }];
     
@@ -44,7 +47,6 @@
 
 - (void)wx_POSTRequestURLStr:(NSString *)URLStr parameters:(NSDictionary *)parameters success:(void (^)(WXNetworkRequest *, id))success failure:(void (^)(WXNetworkRequest *, NSError *))failure {
     self.operationQueue = self.requestManager.operationQueue;
-    self.requestManager.responseSerializer = [AFHTTPResponseSerializer serializer];
     
     [self.requestManager POST:URLStr parameters:parameters progress:^(NSProgress * _Nonnull uploadProgress) {
         NSLog(@"%@",uploadProgress);

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "WXListViewController.h"
+#import "WXBaseNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    WXListViewController *listViewController = [[WXListViewController alloc]init];
+    WXBaseNavigationController *navigationVC = [[WXBaseNavigationController alloc]initWithRootViewController:listViewController];
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = navigationVC;
+    [self.window makeKeyAndVisible];
+    
+    
+    
     return YES;
 }
 

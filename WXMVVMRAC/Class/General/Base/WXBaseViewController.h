@@ -13,6 +13,12 @@
 
 
 /**
+ *  VIEW是否渗透导航栏
+ * (YES_VIEW渗透导航栏下／NO_VIEW不渗透导航栏下)
+ */
+@property (assign,nonatomic) BOOL isExtendLayout;
+
+/**
  设置状态栏的样式
 
  @param statusBarStyle 样式

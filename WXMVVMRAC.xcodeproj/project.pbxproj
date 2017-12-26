@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1826E3851FE0D5400045919E /* WXListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826E3841FE0D5400045919E /* WXListViewController.m */; };
+		1826E3881FE0D5BE0045919E /* WXListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826E3871FE0D5BE0045919E /* WXListViewModel.m */; };
+		1826E38B1FE0D5D00045919E /* WXListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826E38A1FE0D5D00045919E /* WXListView.m */; };
+		1826E38E1FE0FAEA0045919E /* WXListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826E38D1FE0FAEA0045919E /* WXListCell.m */; };
+		1826E3911FE0FB030045919E /* WXListCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826E3901FE0FB030045919E /* WXListCellViewModel.m */; };
+		183C4E9F1FE8AA10005A7C31 /* WXProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C4E9E1FE8AA10005A7C31 /* WXProgressHUD.m */; };
 		183D74291FDF6BBE0041BB71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D74281FDF6BBE0041BB71 /* main.m */; };
 		183D742C1FDF6BBE0041BB71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D742B1FDF6BBE0041BB71 /* AppDelegate.m */; };
 		183D742F1FDF6BBE0041BB71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D742E1FDF6BBE0041BB71 /* ViewController.m */; };
@@ -43,6 +49,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1826E37C1FE0D3500045919E /* WXAPIMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXAPIMacro.h; sourceTree = "<group>"; };
+		1826E3831FE0D5400045919E /* WXListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXListViewController.h; sourceTree = "<group>"; };
+		1826E3841FE0D5400045919E /* WXListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXListViewController.m; sourceTree = "<group>"; };
+		1826E3861FE0D5BE0045919E /* WXListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXListViewModel.h; sourceTree = "<group>"; };
+		1826E3871FE0D5BE0045919E /* WXListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXListViewModel.m; sourceTree = "<group>"; };
+		1826E3891FE0D5D00045919E /* WXListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXListView.h; sourceTree = "<group>"; };
+		1826E38A1FE0D5D00045919E /* WXListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXListView.m; sourceTree = "<group>"; };
+		1826E38C1FE0FAEA0045919E /* WXListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXListCell.h; sourceTree = "<group>"; };
+		1826E38D1FE0FAEA0045919E /* WXListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXListCell.m; sourceTree = "<group>"; };
+		1826E38F1FE0FB030045919E /* WXListCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXListCellViewModel.h; sourceTree = "<group>"; };
+		1826E3901FE0FB030045919E /* WXListCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXListCellViewModel.m; sourceTree = "<group>"; };
+		183C4E9D1FE8AA10005A7C31 /* WXProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXProgressHUD.h; sourceTree = "<group>"; };
+		183C4E9E1FE8AA10005A7C31 /* WXProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXProgressHUD.m; sourceTree = "<group>"; };
 		183D74241FDF6BBE0041BB71 /* WXMVVMRAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXMVVMRAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		183D74281FDF6BBE0041BB71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		183D742A1FDF6BBE0041BB71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +129,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1826E37D1FE0D48A0045919E /* WXSections */ = {
+			isa = PBXGroup;
+			children = (
+				1826E37E1FE0D48A0045919E /* Main */,
+			);
+			path = WXSections;
+			sourceTree = "<group>";
+		};
+		1826E37E1FE0D48A0045919E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1826E3801FE0D48A0045919E /* ViewControllers */,
+				1826E3821FE0D48A0045919E /* Views */,
+				1826E3811FE0D48A0045919E /* ViewModels */,
+				1826E37F1FE0D48A0045919E /* Models */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1826E37F1FE0D48A0045919E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1826E3801FE0D48A0045919E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1826E3831FE0D5400045919E /* WXListViewController.h */,
+				1826E3841FE0D5400045919E /* WXListViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1826E3811FE0D48A0045919E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1826E3861FE0D5BE0045919E /* WXListViewModel.h */,
+				1826E3871FE0D5BE0045919E /* WXListViewModel.m */,
+				1826E38F1FE0FB030045919E /* WXListCellViewModel.h */,
+				1826E3901FE0FB030045919E /* WXListCellViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1826E3821FE0D48A0045919E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1826E3891FE0D5D00045919E /* WXListView.h */,
+				1826E38A1FE0D5D00045919E /* WXListView.m */,
+				1826E38C1FE0FAEA0045919E /* WXListCell.h */,
+				1826E38D1FE0FAEA0045919E /* WXListCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		183D741B1FDF6BBE0041BB71 = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +350,7 @@
 		183D74631FDF801F0041BB71 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				1826E37C1FE0D3500045919E /* WXAPIMacro.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -281,6 +358,7 @@
 		183D74641FDF801F0041BB71 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				1826E37D1FE0D48A0045919E /* WXSections */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -288,6 +366,7 @@
 		183D74651FDF801F0041BB71 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				1843BBAC1FE3BDAC00DB2767 /* WXProgressHUD */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
@@ -320,6 +399,15 @@
 			children = (
 			);
 			path = WXRefresh;
+			sourceTree = "<group>";
+		};
+		1843BBAC1FE3BDAC00DB2767 /* WXProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				183C4E9D1FE8AA10005A7C31 /* WXProgressHUD.h */,
+				183C4E9E1FE8AA10005A7C31 /* WXProgressHUD.m */,
+			);
+			path = WXProgressHUD;
 			sourceTree = "<group>";
 		};
 		2BDBD98F883CFE1017F4372C /* Frameworks */ = {
@@ -516,6 +604,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-WXMVVMRAC/Pods-WXMVVMRAC-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
@@ -527,6 +616,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
@@ -549,13 +639,19 @@
 				183D742F1FDF6BBE0041BB71 /* ViewController.m in Sources */,
 				183D74861FDFD3960041BB71 /* WXBaseNavigationController.m in Sources */,
 				183D747A1FDFB6F30041BB71 /* WXBaseView.m in Sources */,
+				1826E3881FE0D5BE0045919E /* WXListViewModel.m in Sources */,
 				183D742C1FDF6BBE0041BB71 /* AppDelegate.m in Sources */,
 				183D746D1FDF86A00041BB71 /* WXBaseViewController.m in Sources */,
+				1826E3911FE0FB030045919E /* WXListCellViewModel.m in Sources */,
+				1826E3851FE0D5400045919E /* WXListViewController.m in Sources */,
 				183D74821FDFD1110041BB71 /* WXBaseCollectionViewCell.m in Sources */,
 				183D74721FDF87BB0041BB71 /* WXBaseViewModel.m in Sources */,
 				183D747E1FDFBEB20041BB71 /* WXBaseTableViewCell.m in Sources */,
 				183D74291FDF6BBE0041BB71 /* main.m in Sources */,
 				183D74761FDF8A160041BB71 /* WXNetworkRequest.m in Sources */,
+				1826E38E1FE0FAEA0045919E /* WXListCell.m in Sources */,
+				1826E38B1FE0D5D00045919E /* WXListView.m in Sources */,
+				183C4E9F1FE8AA10005A7C31 /* WXProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,6 +804,7 @@
 				DEVELOPMENT_TEAM = TG4G46DRAS;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WXMVVMRAC/PrefixHeader.pch";
 				INFOPLIST_FILE = WXMVVMRAC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jukwl.WXMVVMRAC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -722,6 +819,7 @@
 				DEVELOPMENT_TEAM = TG4G46DRAS;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WXMVVMRAC/PrefixHeader.pch";
 				INFOPLIST_FILE = WXMVVMRAC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jukwl.WXMVVMRAC;
 				PRODUCT_NAME = "$(TARGET_NAME)";

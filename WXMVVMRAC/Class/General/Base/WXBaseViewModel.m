@@ -29,7 +29,7 @@
 }
 
 
-- (WXNetworkRequest *)request {
+- (WXNetworkRequest *)networkRequest {
     if (!_networkRequest) {
         _networkRequest = [WXNetworkRequest wx_networkRequst];
     }

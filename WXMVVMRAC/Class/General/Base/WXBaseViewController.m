@@ -48,8 +48,37 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    
+    
+//    [self setIsExtendLayout:NO];
+    
+    if ([self respondsToSelector:@selector(setAutomaticallyAdjustsScrollViewInsets:)]) {
+        [self setAutomaticallyAdjustsScrollViewInsets:NO];
+    }
+    
     // Do any additional setup after loading the view.
 }
+
+
+- (void)setIsExtendLayout:(BOOL)isExtendLayout {
+    
+    if (!isExtendLayout) {
+        [self initializeSelfVCSetting];
+    }
+}
+
+- (void)initializeSelfVCSetting {
+    
+    if ([self respondsToSelector:@selector(setAutomaticallyAdjustsScrollViewInsets:)]) {
+        [self setAutomaticallyAdjustsScrollViewInsets:NO];
+    }
+    if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)]) {
+        self.edgesForExtendedLayout=UIRectEdgeNone;
+    }
+}
+
+
 
 
 - (void)wx_removeNavigationBarLine {
